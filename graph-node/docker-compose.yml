@@ -26,7 +26,7 @@ services:
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
       GRAPH_LOG: info
-      GRAPH_NODE_CONFIG: /data/config/eos-substreams.toml
+      GRAPH_NODE_CONFIG: /data/config/substreams.toml
       ETH_MAINNET_RPC: "${ETH_MAINNET_RPC}"
       SUBSTREAMS_ENDPOINT: "${SUBSTREAMS_ENDPOINT}"
       SUBSTREAMS_API_TOKEN: "${SUBSTREAMS_API_TOKEN}"
