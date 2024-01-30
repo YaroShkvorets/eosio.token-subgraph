@@ -1,4 +1,5 @@
 # EOS token transfer subgraph
+This is a basic substreams-based subgraph built on [eosio.token substreams](https://github.com/pinax-network/substreams/tree/develop/eosio.token)
 
 ## Prerequisites
 1. Docker
