@@ -1,0 +1,15 @@
+type transfer @entity {
+  id: ID!
+  trx_id: String!
+  action_ordinal: String!
+  contract: String!
+  action: String!
+  symcode: String!
+  from: String!
+  to: String!
+  memo: String!
+  quantity: String!
+  amount: String!
+  precision: String!
+  value: String!
+}
